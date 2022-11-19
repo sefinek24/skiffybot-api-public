@@ -13,7 +13,7 @@ const app = express();
 // Use & enable
 app.use(hidePoweredBy());
 app.use(cors({ origin: 'http://127.0.0.1:3010', credentials: true }));
-app.use(favicon('assets/favicon.png'));
+app.use(favicon('public/favicon.png'));
 app.use(express.static('./public'));
 app.use(morgan(`:method :url [:status] :response-time ms - ${process.pid} - :user-agent`));
 

@@ -8,7 +8,7 @@
     "up": "ncu -u && npm install && npm update && npm audit fix"
   },
   "author": "Sefinek",
-  "license": "GNU General Public License v3.0",
+  "license": "GPL-3.0",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",

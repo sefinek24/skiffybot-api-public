@@ -1,0 +1,33 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Source Code Pro', monospace;
+}
+
+h1 {
+    text-align: center;
+}
+
+hr {
+    height: 1px;
+    background-color: #2e2e2e;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.header {
+    margin-top: 22px;
+    margin-bottom: 9px;
+}
+
+a {
+    color: #5865f2;
+    text-decoration: none;
+    transition: .2s;
+}
+a:hover {
+    color: #4752c4;
+}
+a:active {
+    color: #3c45a5;
+}

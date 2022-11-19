@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Version v1 Docs - SkiffyBOT API</title>
+    <meta name="description" content="Check the documentation for first release of API version.">
+    <meta name="keywords" content="skiffy, bot, api, docs, documentation">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <h1>SkiffyBOT API - v1</h1>
+    <hr>
+    <div style="text-align:center"><a href="/">« Homepage</a></div>
+
+    <div class="header">» All endpoints:</div>
+    <p>
+        <a href="/api/v1/animals/">GET /api/v1/animals/{endpoint}</a><br>
+        <code><b>Endpoints:</b> cat, dog, fox, fish, alpaca, bird</code>
+    </p>
+    <p>
+        <a href="/api/v1/string/">GET /api/v1/string/{endpoint}</a><br>
+        <code><b>Endpoints:</b> 8ball</code>
+    </p>
+    <p>
+        <a href="/api/v1/kaomoji/">GET /api/v1/kaomoji/{endpoint}</a><br>
+        <code><b>Endpoints:</b> cat, dog, owo, uwu, love</code>
+    </p>
+
+    <p>
+        <a href="/api/v1/filter/">GET /api/v1/filter/{endpoint}?image={url}&strength={number}</a><br>
+        <code>
+            <b>Endpoints:</b><br>
+            • <a href="https://api.sefinek.net/api/v1/filter/blur?image=https://noel.sefinek.net/images/bgs/main_1920x1080.jpg&strength=20">[Example]</a> blur | params: &strength ✅ (min = 1, max = 256, default = 5) <br>
+            • <a href="https://api.sefinek.net/api/v1/filter/greyscale?image=https://noel.sefinek.net/images/bgs/main_1920x1080.jpg">[Example]</a> greyscale | params: &strength ❎<br>
+            • <a href="https://api.sefinek.net/api/v1/filter/contrast?image=https://noel.sefinek.net/images/bgs/main_1920x1080.jpg&strength=0.2">[Example]</a> contrast | params: &strength ✅ (min = -1, max = 1, default = 0.1)<br>
+            • <a href="https://api.sefinek.net/api/v1/filter/invert?image=https://noel.sefinek.net/images/bgs/main_1920x1080.jpg">[Example]</a> invert | params: &strength ❎<br>
+            • <a href="https://api.sefinek.net/api/v1/filter/dither565?image=https://noel.sefinek.net/images/bgs/main_1920x1080.jpg">[Example]</a> dither565 | params: &strength ❎<br>
+            • <a href="https://api.sefinek.net/api/v1/filter/normalize?image=https://noel.sefinek.net/images/bgs/main_1920x1080.jpg">[Example]</a> normalize | params: &strength ❎
+        </code>
+    </p>
+
+    <meta property="og:site_name" content="SkiffyBOT API">
+    <meta property="og:url" content="https://api.sefinek.net">
+    <meta name="theme-color" content="#000001">
+</body>
+</html>
